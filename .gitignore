@@ -1,0 +1,28 @@
+# secrets and local config
+.env
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*-key.json
+*service-account*.json
+client_secret*.json
+credentials*.json
+token.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# deploy
+.vercel/
+
+# local brain exports and backups
+brain/
+brain_backup_*/
+brain_export_*/
+
+.DS_Store
